@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+html,body{
+    margin: 0;
+    padding:0;
+    height: 100%;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.4;
+
+
+   
+
+}
+
+.label1{
+    background-image: url(developer.png);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.heading{
+    font-weight: 400;
+    max-width: 900px;
+    color: white;
+    margin: 0 auto;
+    padding-top: 5px;
+
+}
+
+.lg-font{
+    font-size: 72px;
+    font-weight: 500;
+}
+
+
+
+
+.label2{
+    background-color: black;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+    text-transform:uppercase;
+}
+.label2 span{
+    font-size: 100px;
+   
+}
+.label2 h2{
+    font-size: 50px;
+
+}
+
+.label3{
+  
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+
+
+}
+
+.card{
+    margin: 30px;
+    max-width: 23%;
+    height: 500px;
+    padding: 0;
+    position: relative;
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.2); 
+       border-radius: 15px;
+       transition: .2s ease-in-out;
+
+     
+}
+
+.card:hover{
+    transform: scale(1.04);
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.3);
+    transition: .2s ease-in;
+}
+
+img{
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.card_content{
+    margin: 10px;
+}
+
+.card_content h3{
+    text-align: center;
+}
+h3{
+    margin-bottom: 15px;
+}
+
+.label4{
+    height: 378px;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: space-evenly;
+    align-content: center;
+
+    
+
+}
+
+h4{
+    font-size: 50px;
+    margin-bottom: 10px;}
+
+.label4 p{
+    font-size: 14px;
+    line-height: 23px;
+}
+.contact, .about{
+    color: white;
+    padding:  50px;
+    
+}
+
+.contact{
+    background-color: #515603;
+}
+.about{
+   background-color:  #722300;
+
+}
+
+footer{
+    background-color: black;
+    color: white;
+    display: flex;  
+    font-size: 24px;
+    height: 140px;
+    align-items: center;
+    justify-content: center;
+   
+}
